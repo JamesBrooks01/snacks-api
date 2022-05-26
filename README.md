@@ -1,26 +1,15 @@
-# LAB - Class xx
+# LAB - Class 31
 
-## Project: Project Name Here
+## Project: Django REST Framework & Docker
 
-## Author: Student/Group Name
-
-## Links and Resources
-
-- back-end server url (when applicable)
-- front-end application (when applicable)
+## Author: James Brooks
 
 ## Setup
 
-- .env requirements (where applicable) i.e.
-  - PORT - Port Number
-  - DATABASE_URL - URL to the running Postgres instance/db
-
-- How to initialize/run your application (where applicable)
-  - e.g. python main.py
-- How to use your library (where applicable)
+- To run the app, if you have docker, use `docker compose up`
+  - If not, run `python manage.py runserver` within a virtual environment
 
 ## Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+- To run the tests, use the `python manage.py test` within a virtual environment
+- There are 6 tests in total, with tests for testing the Snack model, the views and the CRUD routes
